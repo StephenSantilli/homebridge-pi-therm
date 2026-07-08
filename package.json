@@ -1,19 +1,19 @@
 {
-  "name": "homebridge-plugin-name",
-  "displayName": "Plugin Name",
+  "name": "homebridge-pitherm",
+  "displayName": "PiTherm",
   "type": "module",
   "version": "1.0.0",
   "private": true,
-  "description": "A short description about what your plugin does.",
+  "description": "Smart thermostat project with a Raspberry Pi using Homebridge.",
   "author": "Your Name",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/USERNAME/GITHUB_PROJECT_NAME#readme",
+  "homepage": "https://github.com/StephenSantilli/homebridge-pitherm#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME.git"
+    "url": "https://github.com/StephenSantilli/homebridge-pitherm.git"
   },
   "bugs": {
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME/issues"
+    "url": "https://github.com/StephenSantilli/homebridge-pitherm/issues"
   },
   "keywords": [
     "homebridge-plugin"
@@ -30,12 +30,13 @@
     "watch": "npm run build && npm link && nodemon"
   },
   "dependencies": {
-    "homebridge-lib": "^8.0.1"
+    "homebridge-lib": "^8.0.1",
+    "i2c": "^0.4.0",
+    "node-libgpiod": "^0.5.3"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@types/node": "^25.6.0",
-    "eslint": "^10.3.0",
     "homebridge": "^2.0.0",
     "nodemon": "^3.1.14",
     "rimraf": "^6.1.3",
