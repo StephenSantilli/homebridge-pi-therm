@@ -6,4 +6,4 @@ export const PLATFORM_NAME = 'PiTherm';
 /**
  * This must match the name of your plugin as defined the package.json `name` property
  */
-export const PLUGIN_NAME = 'homebridge-pitherm';
+export const PLUGIN_NAME = 'homebridge-pi-therm';

@@ -4,12 +4,11 @@
     "username": "0E:12:34:56:78:90",
     "port": 51826,
     "pin": "031-45-154",
-    "bind": ["192.168.1.215"],
     "advertiser": "ciao"
   },
   "description": "HomeBridge HTTP Status Control",
   "plugins": [
-    "homebridge-pitherm",
+    "homebridge-pi-therm",
     "homebridge-config-ui-x"
   ],
   "platforms": [
@@ -25,7 +24,7 @@
       "debug": false
     },
     {
-      "name": "homebridge-pitherm",
+      "name": "homebridge-pi-therm",
       "platform": "PiTherm"
     }
   ],
