@@ -1,19 +1,19 @@
 {
-  "name": "homebridge-pitherm",
+  "name": "homebridge-pi-therm",
   "displayName": "PiTherm",
   "type": "module",
   "version": "1.0.0",
   "private": true,
   "description": "Smart thermostat project with a Raspberry Pi using Homebridge.",
-  "author": "Your Name",
+  "author": "Stephen Santilli",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/StephenSantilli/homebridge-pitherm#readme",
+  "homepage": "https://github.com/StephenSantilli/homebridge-pi-therm#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/StephenSantilli/homebridge-pitherm.git"
+    "url": "https://github.com/StephenSantilli/homebridge-pi-therm.git"
   },
   "bugs": {
-    "url": "https://github.com/StephenSantilli/homebridge-pitherm/issues"
+    "url": "https://github.com/StephenSantilli/homebridge-pi-therm/issues"
   },
   "keywords": [
     "homebridge-plugin"
